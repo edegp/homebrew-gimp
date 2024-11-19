@@ -16,8 +16,8 @@ class Pygtk < Formula
   depends_on "atk"
   depends_on "glib"
   depends_on "gtk+"
-  depends_on "libglade"
-  depends_on "py2cairo"
+  depends_on "glade"
+  depends_on "py3cairo"
   depends_on "edegp/gimp/pygobject"
 
   # Allow building with recent Pango, where some symbols were removed
